@@ -1,8 +1,8 @@
-# Task Challange [Software Engineering, Java: Practical Task]
+# Task Challenge [Software Engineering, Java: Practical Task]
 ### Aphoteke
-Chalance is about fetching data from external github api
+Chalance is about fetching data from external GitHub api
 
-#### Externa Api Gateway
+#### External Api Gateway
 ---
 #### End-Point:
 
@@ -11,18 +11,18 @@ Chalance is about fetching data from external github api
 #### Controller:
   - **The Controller has one post end-point method called searchByRequest.**
   
-  - **The method waiting reuest body as Object in the Array.It is allow to search multiple request at the same time.**
+  - **The method waiting request body as Object in the Array.It is allowed to search multiple request at the same time.**
 
 #### Request Body:
 
-- **It has four paramaters to fill for tge Json Object:**
+- **It has four parameters to fill for tge Json Object:**
   
   - **language: The String datatype to filter languages for instance "Java","Go","CSharp" etc.**
   - **per_page: The number of results per page example 10,50,100.**
-  - **lpopular_repository: Boolean True or False if true is slected it will bring popular repositores by descented order.**
-  - **lcreated_date: Date formatting must follow the ISO8601 standard, which is YYYY-MM-DD (year-month-day).**
-  - **ldirection_date: You can search for dates that are earlier or later than another date, or that fall within a range of dates, by using >, >=, <, <=.**
-  - **lspecific_word: Spring data type for Search for any specific word in the Repositories.**
+  - **popular_repository: Boolean True or False if true is selected it will bring popular repositories by descended order.**
+  - **created_date: Date formatting must follow the ISO8601 standard, which is YYYY-MM-DD (year-month-day).**
+  - **direction_date: You can search for dates that are earlier or later than another date, or that fall within a range of dates, by using >, >=, <, <=.**
+  - **specific_word: Spring data type for Search for any specific word in the Repositories.**
   
 ##Example For One Request:
 
