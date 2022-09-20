@@ -1,5 +1,5 @@
 # Task Challenge [Software Engineering, Java: Practical Task]
-### Aphoteke
+### Apotheke
 Chalance is about fetching data from external GitHub api
 
 #### External Api Gateway
